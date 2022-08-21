@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Even{
+	public static void main(String[ ] argrs){
+		Scanner read = new Scanner(System.in);
+		System.out.println("Please enter any Number(Must be +ve Integer)");
+		
+		int anyNumber = read.nextInt();
+
+		if (anyNumber  % 2 == 0)
+		{
+			System.out.println("Number Is Even " + (anyNumber*3+1));
+		}
+
+		else if(anyNumber % 2 !=0)
+		{
+			System.out.println("Number is odd " + anyNumber/2);
+		}
+
+	
+	}//main
+ 
+}//class
